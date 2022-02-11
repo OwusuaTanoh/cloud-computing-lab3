@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CV </title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div style="width:800px; margin:0 auto;">
+      <div class="header">
+        <h1>CV Data Entry Form</h1>
+        <p>Enter Data to populate CV Template</p>
+      </div>
+
+      <div class="container">
+
+        <form>
+
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+
+          <label for="fname">Middle Name</label>
+          <input type="text" id="mname" name="middlename" placeholder="Your middle name..">
+
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+          <label for="gender">Gender</label>
+          <select id="gender" name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+
+          <label for="pnumber">Phone number</label>
+          <input type="text" id="pnumber" name="pnumber" placeholder="Your phone number...">
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Your email address...">
+
+          <label for="Address">Address</label>
+          <textarea id="address" name="address" placeholder="Enter your address .." style="height:200px"></textarea>
+
+        </form>
+
+        <button onclick="submit()" >Submit</button>
+
+      </div>
+
+   </div>
+
+   <script type="text/javascript" src="worker.js">
+
+
+   </script>
+  </body>
+</html>

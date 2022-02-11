@@ -1,0 +1,139 @@
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+input[type=number], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.header {
+   font-family: "Trebuchet MS", Helvetica, sans-serif;
+  padding: 10px;
+  text-align: center;
+  background: #5B5EA6;
+  color: white;
+  font-size: 30px;
+}
+
+body{
+  padding: 5%;
+   font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+label{
+  padding: 3%;
+}
+
+p{
+  padding-left: 3%;
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+.column2 {
+  float: left;
+  width: 66.67%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.picture{
+  height: 50%;
+  padding: 10%;
+  background-color: orange;
+}
+
+.OtherContent{
+  background-color: orange;
+}
+
+
+#top,
+#bottom {
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 50%;
+}
+
+#top {
+    top: 0;
+    background-color: orange;
+}
+
+#bottom {
+    bottom: 0;
+    background-color: green;
+}
+
+#span{
+  width: 70%
+}
+
+.column-1 {
+  float: left;
+  width: 80%;
+}
+
+.column-2 {
+  float: left;
+  width: 20%;
+}
+
+.roww:after {
+  content: "";
+  display: table;
+  clear: both;
+}
